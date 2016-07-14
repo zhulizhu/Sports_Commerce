@@ -1,10 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/sport.css">
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <title>首页</title>
 </head>
 <body>
+<header>
+    <nav>
+        <img class="ico" src="../../images/lALOW18xOXt0_116_123.png">
+        <ul>
+            <li class="page-1"><a href="#">首页</a></li>
+            <li><a href="#">商会状况</a></li>
+            <li><a href="#">新闻中心</a></li>
+            <li><a href="#">报名入口</a></li>
+            <li><a href="#">会员风采</a></li>
+            <li><a href="#">服务中心</a></li>
+            <li><a href="#">体育智库</a></li>
+            <li><a href="#">信息反馈</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+        <img class="interval" src="../../images/jiange.png">a>
+        <span><a href="#">登录&nbsp;|&nbsp;注册</a></span>
+        <img class="search" src="../../images/lALOW0vnTxt1_117_27.png">
+        <input type="text" placeholder="站内搜索">
+        <a class="souSuo" href="#"><img src="../../images/sousuo.png"></a>
+    </nav>
+</header>
+<section>
+    <img class="banner_pic" src="../../images/banner.png">
+    <div class="news">
+        <div class="pic carousel slide" id="myCarousel">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../../images/img.png" alt="First slide">
+                </div>
+                <div class="item">
+                    <img src="../../images/img.png" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img src="../../images/img.png" alt="Third slide">
+                </div>
+            </div>
+        </div>
+        <div class="text">
+            <a href="#">
+                <img class="new" src="../../images/news.png">
+                <img  class="xhx" src="../../images/xiahuaxian.png">
+                <h4>新闻中心</h4>
+            </a>
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <div class="dat" id="one">
+                            <div class="order">20</div>
+                            <div class="tim"></div>
+                            <div class="times"></div>
+                        </div>
+                        <div class="tex">
+                            <h1>成都体育产业商会正式开启全民健身活动</h1>
+                            <p>成都体育产业商会正式开启全民健身活动，邀请全体有愿人士积极参与到活动中来 。大家都知道身体亚健康...</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="dat" id="two">
+                            <div class="order">20</div>
+                            <div class="tim"></div>
+                            <div class="times"></div>
+                        </div>
+                        <div class="tex">
+                            <h1>成都体育产业商会正式开启全民健身活动</h1>
+                            <p>成都体育产业商会正式开启全民健身活动，邀请全体有愿人士积极参与到活动中来 。大家都知道身体亚健康...</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="dat" id="three">
+                            <div class="order">20</div>
+                            <div class="tim"></div>
+                            <div class="times"></div>
+                        </div>
+                        <div class="tex">
+                            <h1>成都体育产业商会正式开启全民健身活动</h1>
+                            <p>成都体育产业商会正式开启全民健身活动，邀请全体有愿人士积极参与到活动中来 。大家都知道身体亚健康...</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <button>查看更多</button>
+        </div>
+    </div>
+    <div class="activity">
 
+    </div>
+</section>
+<footer></footer>
 </body>
+<script type="text/javascript">
+    $(function(){
+        /*轮播图的js*/
+        $("#myCarousel").carousel({
+            interval: 2000
+        });
+        //日期自动更新
+        var myDate = new Date();
+        var month = myDate.getMonth() + 1;
+        console.log(month + "");
+        var x = myDate.getFullYear() + "/0" + month;
+        document.getElementsByClassName("tim")[0].innerHTML = x;
+        document.getElementsByClassName("tim")[1].innerHTML = x;
+        document.getElementsByClassName("tim")[2].innerHTML = x;
+        console.log(x);
+        //日期部分点击
+        $("#one").mousemove(function () {
+            $(this).addClass('common_color').parent().siblings().children().removeClass('public_pop');
+        });
+        $("#two").mousemove(function () {
+            $(this).addClass('common_color').parent().siblings().children().removeClass('public_pop');
+        });
+        $("#three").mousemove(function () {
+            $(this).addClass('common_color').parent().siblings().children().removeClass('public_pop');
+        })
+    })
+
+</script>
 </html>
