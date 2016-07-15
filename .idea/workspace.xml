@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Sports_Commerce/Product/home_page.html" line="28" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="ed1991aa-a1f5-43a1-afc2-7bc104b652c9" name="Default" comment="" />
     <ignored path="体育商会.iws" />
@@ -25,21 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sports_Commerce/Product/home_page.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sports_Commerce/Product/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0">
-              <caret line="260" column="44" selection-start-line="260" selection-start-column="40" selection-end-line="260" selection-end-column="44" />
+            <state vertical-scroll-proportion="6.4">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sport.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="survey.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sports_Commerce/Product/survey.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31034482">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sport.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/sport.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44827586">
-              <caret line="410" column="31" selection-start-line="410" selection-start-column="31" selection-end-line="410" selection-end-column="31" />
+            <state vertical-scroll-proportion="-0.3139535">
+              <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
               <folding>
                 <element signature="e#133#196#0" expanded="false" />
               </folding>
@@ -51,11 +58,12 @@
         <entry file="file://$PROJECT_DIR$/css/sport.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="440" column="1" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
+              <caret line="621" column="1" selection-start-line="621" selection-start-column="1" selection-end-line="621" selection-end-column="1" />
               <folding>
-                <marker date="1468554459040" expanded="true" signature="603:677" placeholder="{...}" />
-                <marker date="1468554459040" expanded="true" signature="697:698" placeholder="{...}" />
-                <marker date="1468554459040" expanded="true" signature="1079:1113" placeholder="{...}" />
+                <marker date="1468572909075" expanded="true" signature="603:677" placeholder="{...}" />
+                <marker date="1468572909075" expanded="true" signature="697:698" placeholder="{...}" />
+                <marker date="1468572909075" expanded="true" signature="1079:1113" placeholder="{...}" />
+                <marker date="1468572909075" expanded="true" signature="9735:9855" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -79,7 +87,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Sports_Commerce/Product/home_page.html" />
+        <option value="$PROJECT_DIR$/Sports_Commerce/Product/index.html" />
         <option value="$PROJECT_DIR$/less/sport.less" />
+        <option value="$PROJECT_DIR$/Sports_Commerce/Product/survey.html" />
       </list>
     </option>
   </component>
@@ -124,6 +134,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,15 +215,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/js插件/jiaoben2465" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
@@ -477,12 +487,13 @@
       <option name="number" value="Default" />
       <updated>1468465439557</updated>
       <workItem from="1468465441159" duration="19981000" />
-      <workItem from="1468545534025" duration="9043000" />
+      <workItem from="1468545534025" duration="13449000" />
+      <workItem from="1468566138444" duration="9101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29024000" />
+    <option name="totallyTimeSpent" value="42531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
@@ -521,11 +532,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sports_Commerce/Product/home_page.html">
+    <entry file="file://$PROJECT_DIR$/less/sport.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding />
+          <caret line="522" column="26" selection-start-line="522" selection-start-column="26" selection-end-line="522" selection-end-column="26" />
+          <folding>
+            <element signature="e#133#196#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sport.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="532" column="1" selection-start-line="532" selection-start-column="1" selection-end-line="532" selection-end-column="1" />
+          <folding>
+            <marker date="1468572909075" expanded="true" signature="603:677" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="697:698" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="1079:1113" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="9735:9855" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -544,9 +570,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="231" column="1" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
           <folding>
-            <marker date="1468554459040" expanded="true" signature="603:677" placeholder="{...}" />
-            <marker date="1468554459040" expanded="true" signature="697:698" placeholder="{...}" />
-            <marker date="1468554459040" expanded="true" signature="1079:1113" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="603:677" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="697:698" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="1079:1113" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="9735:9855" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -554,30 +581,39 @@
     <entry file="file://$PROJECT_DIR$/css/sport.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="440" column="1" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
+          <caret line="621" column="1" selection-start-line="621" selection-start-column="1" selection-end-line="621" selection-end-column="1" />
           <folding>
-            <marker date="1468554459040" expanded="true" signature="603:677" placeholder="{...}" />
-            <marker date="1468554459040" expanded="true" signature="697:698" placeholder="{...}" />
-            <marker date="1468554459040" expanded="true" signature="1079:1113" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="603:677" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="697:698" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="1079:1113" placeholder="{...}" />
+            <marker date="1468572909075" expanded="true" signature="9735:9855" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sports_Commerce/Product/home_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="260" column="44" selection-start-line="260" selection-start-column="40" selection-end-line="260" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/sport.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44827586">
-          <caret line="410" column="31" selection-start-line="410" selection-start-column="31" selection-end-line="410" selection-end-column="31" />
+        <state vertical-scroll-proportion="-0.3139535">
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
           <folding>
             <element signature="e#133#196#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sports_Commerce/Product/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.4">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sports_Commerce/Product/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31034482">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -131,6 +131,37 @@ section .banner_pic {
   max-width: 1980px;
   height: auto;
 }
+section .survey_banner {
+  width: 1200px;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 42px;
+}
+section .text_box {
+  width: 1200px;
+  max-width: 1200px;
+  margin: auto;
+}
+section .text_box p {
+  color: #9d9c9c;
+  height: 14px;
+}
+section .text_box hr {
+  border: 0;
+  background-color: #8e8d8d;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+section .text_box .tb {
+  overflow: hidden;
+}
+section .text_box .tb .tb-left {
+  float: left;
+}
+section .text_box .tb .tb-right {
+  float: right;
+}
 section .news {
   width: 1200px;
   height: 654px;
@@ -406,21 +437,61 @@ section .tem .centre .tit a h4 {
   margin-top: 13px;
   margin-bottom: 154px;
 }
+section .tem .centre .tex {
+  margin-left: 102px;
+}
 section .tem .centre .tex ul {
-  overflow: hidden;
+  position: relative;
+}
+section .tem .centre .tex ul .li-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section .tem .centre .tex ul .li-2 {
+  position: absolute;
+  top: 0;
+  left: 202px;
+}
+section .tem .centre .tex ul .li-3 {
+  position: absolute;
+  top: 0;
+  left: 404px;
+}
+section .tem .centre .tex ul .li-4 {
+  position: absolute;
+  top: -172px;
+  left: 606px;
+}
+section .tem .centre .tex ul .li-5 {
+  position: absolute;
+  top: 79px;
+  left: 606px;
+}
+section .tem .centre .tex ul .li-6 {
+  position: absolute;
+  top: 0;
+  left: 808px;
+}
+section .tem .centre .tex ul .li-7 {
+  position: absolute;
+  top: 251px;
+  left: 202px;
 }
 section .tem .centre .tex ul li {
-  float: left;
   width: 201px;
   height: 250px;
   background-color: #fff;
+}
+section .tem .centre .tex ul li a {
+  color: #161515;
 }
 section .tem .centre .tex ul li a .person {
   height: 179px;
   display: block;
 }
 section .tem .centre .tex ul li a .cont {
-  margin-top: 24px;
+  margin-top: 22px;
   margin-left: 23px;
   width: 157px;
 }
@@ -429,6 +500,7 @@ section .tem .centre .tex ul li a .cont .red-jg {
 }
 section .tem .centre .tex ul li a .cont .bot-tex {
   overflow: hidden;
+  margin-top: 4px;
 }
 section .tem .centre .tex ul li a .cont .bot-tex span {
   display: block;
@@ -437,5 +509,114 @@ section .tem .centre .tex ul li a .cont .bot-tex span {
 section .tem .centre .tex ul li a .cont .bot-tex img {
   display: block;
   float: right;
+  margin-top: 3px;
+}
+section .friendship {
+  background-color: #fff;
+}
+section .friendship .centre {
+  width: 1200px;
+  min-width: 1200px;
+  margin: auto;
+}
+section .friendship .centre .tit {
+  margin-top: 58px;
+  margin-left: 543px;
+  margin-bottom: 57px;
+}
+section .friendship .centre .tit img {
+  display: block;
+}
+section .friendship .centre .tex {
+  margin-left: 80px;
+  margin-right: 92px;
+}
+section .friendship .centre .tex ul {
+  overflow: hidden;
+  margin-bottom: 54px;
+}
+section .friendship .centre .tex ul .li-last {
+  margin-right: 0;
+}
+section .friendship .centre .tex ul li {
+  float: left;
+  margin-right: 35px;
+}
+section .friendship .centre .tex ul li a img {
+  display: block;
+}
+section .friendship .centre .bot-pic {
+  margin-top: 8px;
+  overflow: hidden;
+}
+section .friendship .centre .bot-pic img {
+  float: left;
+  display: block;
+}
+section .friendship .centre .bot-pic a.top {
+  float: left;
+  width: 71px;
+  height: 46px;
+  margin-left: 427px;
+  margin-right: 370px;
+  margin-top: 20px;
+  display: block;
+}
+section .friendship .centre .bot-pic .tree {
+  margin-top: 20px;
+}
+footer {
+  width: 100%;
+  height: 366px;
+  background: url("../images/beijing.png") repeat;
+}
+footer .bottom {
+  width: 1200px;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+}
+footer .bottom .left-bt {
+  float: left;
+}
+footer .bottom .left-bt .list {
+  overflow: hidden ;
+  margin-top: 32px;
+}
+footer .bottom .left-bt .list .ul-1 {
+  margin-right: 72px;
+}
+footer .bottom .left-bt .list .ul-last {
+  margin-right: 0;
+}
+footer .bottom .left-bt .list ul {
+  float: left;
+  margin-right: 86px;
+}
+footer .bottom .left-bt .list ul .li-1 {
+  margin-bottom: 30px;
+}
+footer .bottom .left-bt .list ul .li-1 a {
+  color: #333;
+}
+footer .bottom .left-bt .list ul li {
+  margin-bottom: 23px;
+}
+footer .bottom .left-bt .list ul li a {
+  font-size: 16px;
+  color: #6e6e6e;
+}
+footer .bottom .left-bt p {
+  margin-top: 10px;
+}
+footer .bottom .center-bt {
+  float: left;
+  margin-left: 56px;
+  margin-right: 152px;
+  margin-top: 23px;
+}
+footer .bottom .right-bt {
+  float: left;
+  margin-top: 25px;
 }
 /*# sourceMappingURL=sport.css.map */
