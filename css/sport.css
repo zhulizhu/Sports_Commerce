@@ -229,4 +229,213 @@ section .activity {
   max-width: 1920px;
   background: url("../images/bkb.png") no-repeat;
 }
+section .activity .centre {
+  width: 1200px;
+  min-width: 1200px;
+  margin: auto;
+}
+section .activity .centre .tit a .new {
+  display: block;
+  margin-left: 110px;
+  margin-bottom: 21px;
+}
+section .activity .centre .tit a .xhx {
+  display: block;
+  margin-left: 55px;
+}
+section .activity .centre .tit a h4 {
+  font-size: 16px;
+  color: #da251c;
+  margin-left: 190px;
+  margin-top: 13px;
+  margin-bottom: 150px;
+}
+section .activity .centre .pic ul {
+  overflow: hidden;
+  margin-bottom: 46px;
+}
+section .activity .centre .pic ul .li-2 {
+  margin-left: 96px;
+  margin-right: 93px;
+}
+section .activity .centre .pic ul li {
+  float: left;
+}
+section .activity .centre .pic ul li a img {
+  display: block;
+}
+section .activity .centre .pic ul li .tex {
+  width: 324px;
+  height: 88px;
+  border-bottom: 1px solid #eb6100;
+  border-left: 1px solid #eb6100 ;
+  border-right: 1px solid #eb6100;
+  margin-left: 6px;
+  margin-top: 5px;
+}
+section .activity .centre .pic ul li .tex div {
+  overflow: hidden;
+  margin-top: 10px;
+}
+section .activity .centre .pic ul li .tex div .quq {
+  display: block;
+  float: left;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+section .activity .centre .pic ul li .tex div span {
+  display: block;
+  float: left;
+  color: #fff;
+  font-size: 16px;
+}
+section .activity .centre .pic ul li .tex a {
+  text-decoration: none;
+  color: #c5251c;
+  font-size: 14px;
+  display: block;
+}
+section .activity .centre .pic ul li .tex a .jige {
+  display: block;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+section .activity .centre .pic ul li .tex a h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 14px;
+  color: #c5251c;
+  font-weight: bold;
+}
+section .activity .centre button {
+  width: 344px;
+  height: 66px;
+  background-color: #da251c;
+  color: #fff;
+  border: none;
+  margin-left: 430px;
+  margin-bottom: 162px;
+}
+section .spirit {
+  background-color: #fff;
+}
+section .spirit .centre {
+  width: 1200px;
+  min-width: 1200px;
+  margin: auto;
+}
+section .spirit .centre .tit {
+  margin-left: 370px;
+}
+section .spirit .centre .tit a .new {
+  display: block;
+  margin-left: 110px;
+  margin-bottom: 21px;
+}
+section .spirit .centre .tit a .xhx {
+  display: block;
+  margin-left: 55px;
+}
+section .spirit .centre .tit a h4 {
+  font-size: 16px;
+  color: #da251c;
+  margin-left: 190px;
+  margin-top: 13px;
+  margin-bottom: 54px;
+}
+section .spirit .centre .tex ul {
+  overflow: hidden;
+}
+section .spirit .centre .tex ul .li-3 {
+  margin-right: 8px;
+}
+section .spirit .centre .tex ul li {
+  width: 186px;
+  height: auto;
+  margin-left: 8px;
+  margin-right: 304px;
+  float: left;
+}
+section .spirit .centre .tex ul li .run {
+  display: block;
+  margin-left: 54px;
+}
+section .spirit .centre .tex ul li .tj {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 28px;
+  margin-left: 20px;
+}
+section .spirit .centre .tex ul li h2 {
+  font-size: 20px;
+  text-align: center;
+}
+section .spirit .centre .tex ul li h4 {
+  margin-top: 20px;
+  margin-bottom: 76px;
+  color: #7b7b7b;
+  font-size: 16px;
+  text-align: center;
+}
+section .tem {
+  width: 100%;
+  height: 856px;
+  max-width: 1920px;
+  background: url("../images/bkb1.png") no-repeat;
+  margin-top: 48px;
+}
+section .tem .centre {
+  width: 1200px;
+  min-width: 1200px;
+  margin: auto;
+}
+section .tem .centre .tit a .new {
+  display: block;
+  margin-left: 70px;
+  margin-bottom: 21px;
+}
+section .tem .centre .tit a .xhx {
+  display: block;
+  margin-left: 55px;
+}
+section .tem .centre .tit a h4 {
+  font-size: 16px;
+  color: #da251c;
+  margin-left: 190px;
+  margin-top: 13px;
+  margin-bottom: 154px;
+}
+section .tem .centre .tex ul {
+  overflow: hidden;
+}
+section .tem .centre .tex ul li {
+  float: left;
+  width: 201px;
+  height: 250px;
+  background-color: #fff;
+}
+section .tem .centre .tex ul li a .person {
+  height: 179px;
+  display: block;
+}
+section .tem .centre .tex ul li a .cont {
+  margin-top: 24px;
+  margin-left: 23px;
+  width: 157px;
+}
+section .tem .centre .tex ul li a .cont .red-jg {
+  display: block;
+}
+section .tem .centre .tex ul li a .cont .bot-tex {
+  overflow: hidden;
+}
+section .tem .centre .tex ul li a .cont .bot-tex span {
+  display: block;
+  float: left;
+}
+section .tem .centre .tex ul li a .cont .bot-tex img {
+  display: block;
+  float: right;
+}
 /*# sourceMappingURL=sport.css.map */
