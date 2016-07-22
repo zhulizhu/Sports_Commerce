@@ -107,6 +107,7 @@ header nav img.search {
   display: block;
   float: right;
   margin-right: 3px;
+  margin-top: 19px;
 }
 header nav input {
   position: absolute;
@@ -142,6 +143,26 @@ section .text_box {
   max-width: 1200px;
   margin: auto;
 }
+section .text_box .bot-pic {
+  margin-top: 22px;
+  overflow: hidden;
+}
+section .text_box .bot-pic img {
+  float: left;
+  display: block;
+}
+section .text_box .bot-pic a.top {
+  float: left;
+  width: 71px;
+  height: 46px;
+  margin-left: 427px;
+  margin-right: 370px;
+  margin-top: 20px;
+  display: block;
+}
+section .text_box .bot-pic .tree {
+  margin-top: 20px;
+}
 section .text_box p {
   color: #9d9c9c;
   height: 14px;
@@ -154,13 +175,75 @@ section .text_box hr {
   margin-bottom: 20px;
 }
 section .text_box .tb {
+  width: 100%;
+  height: auto;
   overflow: hidden;
 }
 section .text_box .tb .tb-left {
   float: left;
+  width: 20%;
+}
+section .text_box .tb .tb-left h1 {
+  font-size: 20px;
+}
+section .text_box .tb .tb-left .of_whole {
+  margin-top: 45px;
+}
+section .text_box .tb .tb-left .list {
+  margin-left: 22px;
+  margin-top: 30px;
+}
+section .text_box .tb .tb-left .list ul .li-last {
+  border-bottom: none;
+  width: 114px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+section .text_box .tb .tb-left .list ul li {
+  width: 84px;
+  height: 46px;
+  line-height: 46px;
+  border-bottom: 1px solid #d4d4d4;
+  text-align: center;
+}
+section .text_box .tb .tb-left .list ul li a {
+  color: #686868;
 }
 section .text_box .tb .tb-right {
   float: right;
+  width: 74%;
+  margin-left: 6%;
+  margin-top: 17px;
+  position: relative;
+}
+section .text_box .tb .tb-right .word h1 {
+  font-size: 14px;
+}
+section .text_box .tb .tb-right .word .of_whole {
+  margin-top: 45px;
+}
+section .text_box .tb .tb-right .word p {
+  line-height: 32px;
+  color: #424242;
+  display: block;
+}
+section .text_box .tb .tb-right .word div {
+  margin-top: 74px;
+}
+section .text_box .tb .tb-right .word div h2 {
+  width: 730px;
+  height: 27px;
+  background-color: #ffd7bc;
+  line-height: 27px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+section .text_box .tb .tb-right .word div img {
+  display: block;
+  margin-top: 68px;
+}
+section .text_box .tb .tb-right .word .two {
+  margin-top: 24px;
 }
 section .news {
   width: 1200px;
@@ -299,7 +382,7 @@ section .activity .centre .pic ul li .tex {
   width: 324px;
   height: 88px;
   border-bottom: 1px solid #eb6100;
-  border-left: 1px solid #eb6100 ;
+  border-left: 1px solid #eb6100;
   border-right: 1px solid #eb6100;
   margin-left: 6px;
   margin-top: 5px;
@@ -580,7 +663,7 @@ footer .bottom .left-bt {
   float: left;
 }
 footer .bottom .left-bt .list {
-  overflow: hidden ;
+  overflow: hidden;
   margin-top: 32px;
 }
 footer .bottom .left-bt .list .ul-1 {
