@@ -114,6 +114,37 @@ section {
     width: 1200px;
     max-width: 1200px;
     margin: auto;
+    .text-top{
+      overflow: hidden;
+      margin-top: -25px;
+      .play{
+        width: 72px;
+        height: 42px;
+        color: #da251c;
+        border: 1px solid #da251c;
+        border-radius: 6px;
+        float: left;
+        line-height: 42px;
+        font-size: 20px;
+        text-align: center;
+      }
+      span{
+        display: block;
+        float: left;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 10px;
+        margin-top: 4px;
+      }
+      div.eng{
+        width: 88%;
+        float: left;
+        border-bottom: 2px solid #da251c;
+        margin-top: 10px;
+
+      }
+
+    }
     .bot-pic {
       margin-top: 22px;
       overflow: hidden;
@@ -136,7 +167,7 @@ section {
     }
     p {
       color: #9d9c9c;
-      height: 14px;
+      margin-bottom: 40px;
     }
     hr {
       border: 0;
@@ -144,6 +175,95 @@ section {
       height: 1px;
       margin-top: 5px;
       margin-bottom: 20px;
+    }
+    .apply{
+      width: 94%;
+      margin:30px auto auto auto;
+      border-top: 1px solid #e8e8e8;
+      .apply-list{
+        width: 94%;
+        height: 116px;
+        overflow: hidden;
+        margin: auto;
+        .list-one{
+          float: left;
+          overflow: hidden;
+          margin-top: 26px;
+          .dat{
+            width:66px;
+            height: 70px;
+            border: 1px solid #da251c;
+            border-radius: 6px;
+            background-color: #da251c;
+            float: left;
+            margin-right: 20px;
+            .order{
+              height: 29px;
+              line-height: 30px;
+              color: #da251c;
+              text-align: center;
+              font-size: 16px;
+              background-color: #fff;
+            }
+            .tim{
+              height: 38px;
+              color: #fff;
+              text-align: center;
+              line-height: 38px;
+              font-size: 26px;
+            }
+          }
+          .tex{
+            float: left;
+            width: 280px;
+            height: 70px;
+            .tex-left{
+              overflow: hidden;
+              margin-top: 14px;
+              .left{
+                float: left;
+                p{
+                  margin-bottom: 0;
+                  color: #333333;
+                }
+              }
+              .right{
+                float: right;
+                p{
+                  margin-bottom: 0;
+                  color: #333333;
+                }
+              }
+            }
+            h1{
+              font-size: 16px;
+            }
+          }
+        }
+        .list-two{
+          float: left;
+          margin-left: 420px;
+          margin-top: 60px;
+          .money{
+            color: #da251c;
+            font-size: 30px;
+          }
+        }
+        .list-three{
+          float: right;
+          margin-top: 47px;
+          .appl{
+            width: 95px;
+            height: 43px;
+            border:1px solid #da251c;
+            border-radius: 6px;
+            line-height: 43px;
+            text-align: center;
+            font-size: 20px;
+            color: #da251c;
+          }
+        }
+      }
     }
     .tb {
       width: 100%;
@@ -154,6 +274,8 @@ section {
         width: 20%;
         h1 {
           font-size: 20px;
+          border-bottom: 1px dashed #ccc;
+          line-height: 180%;
         }
         .of_whole {
           margin-top: 45px;
@@ -174,6 +296,7 @@ section {
               line-height: 46px;
               border-bottom: 1px solid #d4d4d4;
               text-align: center;
+              background: url("../images/xiaohuidian.png") no-repeat 0 50%;
               a {
                 color: #686868;
 
@@ -187,21 +310,43 @@ section {
         width: 74%;
         margin-left: 6%;
         margin-top: 17px;
-        position: relative;
-        .word {
+        overflow: hidden;
+        textarea{
+          margin-top: 28px;
+          margin-left: 50px;
+          display: block;
+          border: 1px solid #d7d7d7;
+          color: #a7a7a7;
+        }
+        button{
+          background-color: #eb6100;
+          color: #fff;
+          list-style-type:none;
+          border: none;
+          width: 86px;
+          height: 34px;
+          margin-top: 12px;
+          margin-left: 85%;
+          border-radius: 4px;
+          font-size: 20px;
+
+        }
           h1 {
-            font-size: 14px;
+            font-size: 12px;
+            border-bottom: 1px solid #b2b2b1;
+            line-height: 24px;
           }
           .of_whole {
             margin-top: 45px;
           }
           p {
-            line-height: 32px;
-            color: #424242;
+            line-height: 180%;
+            color: #333;
             display: block;
+            height: auto;
           }
           div {
-            margin-top: 74px;
+            margin-top: 28px;
             h2 {
               width: 730px;
               height: 27px;
@@ -212,9 +357,8 @@ section {
             }
             img {
               display: block;
-              margin-top: 68px;
+              margin-top: 16px;
             }
-          }
           .two {
             margin-top: 24px;
           }
@@ -654,6 +798,8 @@ footer {
   width: 100%;
   height: 366px;
   background: url("../images/beijing.png") repeat;
+  //position: fixed;
+  //bottom:0;
   .bottom {
     width: 1200px;
     max-width: 1200px;

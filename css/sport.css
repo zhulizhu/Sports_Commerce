@@ -143,6 +143,35 @@ section .text_box {
   max-width: 1200px;
   margin: auto;
 }
+section .text_box .text-top {
+  overflow: hidden;
+  margin-top: -25px;
+}
+section .text_box .text-top .play {
+  width: 72px;
+  height: 42px;
+  color: #da251c;
+  border: 1px solid #da251c;
+  border-radius: 6px;
+  float: left;
+  line-height: 42px;
+  font-size: 20px;
+  text-align: center;
+}
+section .text_box .text-top span {
+  display: block;
+  float: left;
+  font-size: 24px;
+  margin-left: 14px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+section .text_box .text-top div.eng {
+  width: 88%;
+  float: left;
+  border-bottom: 2px solid #da251c;
+  margin-top: 10px;
+}
 section .text_box .bot-pic {
   margin-top: 22px;
   overflow: hidden;
@@ -165,7 +194,7 @@ section .text_box .bot-pic .tree {
 }
 section .text_box p {
   color: #9d9c9c;
-  height: 14px;
+  margin-bottom: 40px;
 }
 section .text_box hr {
   border: 0;
@@ -173,6 +202,95 @@ section .text_box hr {
   height: 1px;
   margin-top: 5px;
   margin-bottom: 20px;
+}
+section .text_box .apply {
+  width: 94%;
+  margin: 30px auto auto auto;
+  border-top: 1px solid #e8e8e8;
+}
+section .text_box .apply .apply-list {
+  width: 94%;
+  height: 116px;
+  overflow: hidden;
+  margin: auto;
+}
+section .text_box .apply .apply-list .list-one {
+  float: left;
+  overflow: hidden;
+  margin-top: 26px;
+}
+section .text_box .apply .apply-list .list-one .dat {
+  width: 66px;
+  height: 70px;
+  border: 1px solid #da251c;
+  border-radius: 6px;
+  background-color: #da251c;
+  float: left;
+  margin-right: 20px;
+}
+section .text_box .apply .apply-list .list-one .dat .order {
+  height: 29px;
+  line-height: 30px;
+  color: #da251c;
+  text-align: center;
+  font-size: 16px;
+  background-color: #fff;
+}
+section .text_box .apply .apply-list .list-one .dat .tim {
+  height: 38px;
+  color: #fff;
+  text-align: center;
+  line-height: 38px;
+  font-size: 26px;
+}
+section .text_box .apply .apply-list .list-one .tex {
+  float: left;
+  width: 280px;
+  height: 70px;
+}
+section .text_box .apply .apply-list .list-one .tex .tex-left {
+  overflow: hidden;
+  margin-top: 14px;
+}
+section .text_box .apply .apply-list .list-one .tex .tex-left .left {
+  float: left;
+}
+section .text_box .apply .apply-list .list-one .tex .tex-left .left p {
+  margin-bottom: 0;
+  color: #333333;
+}
+section .text_box .apply .apply-list .list-one .tex .tex-left .right {
+  float: right;
+}
+section .text_box .apply .apply-list .list-one .tex .tex-left .right p {
+  margin-bottom: 0;
+  color: #333333;
+}
+section .text_box .apply .apply-list .list-one .tex h1 {
+  font-size: 16px;
+}
+section .text_box .apply .apply-list .list-two {
+  float: left;
+  margin-left: 420px;
+  margin-top: 60px;
+}
+section .text_box .apply .apply-list .list-two .money {
+  color: #da251c;
+  font-size: 30px;
+}
+section .text_box .apply .apply-list .list-three {
+  float: right;
+  margin-top: 47px;
+}
+section .text_box .apply .apply-list .list-three .appl {
+  width: 95px;
+  height: 43px;
+  border: 1px solid #da251c;
+  border-radius: 6px;
+  line-height: 43px;
+  text-align: center;
+  font-size: 20px;
+  color: #da251c;
 }
 section .text_box .tb {
   width: 100%;
@@ -185,6 +303,8 @@ section .text_box .tb .tb-left {
 }
 section .text_box .tb .tb-left h1 {
   font-size: 20px;
+  border-bottom: 1px dashed #ccc;
+  line-height: 180%;
 }
 section .text_box .tb .tb-left .of_whole {
   margin-top: 45px;
@@ -205,6 +325,7 @@ section .text_box .tb .tb-left .list ul li {
   line-height: 46px;
   border-bottom: 1px solid #d4d4d4;
   text-align: center;
+  background: url("../images/xiaohuidian.png") no-repeat 0 50%;
 }
 section .text_box .tb .tb-left .list ul li a {
   color: #686868;
@@ -214,23 +335,45 @@ section .text_box .tb .tb-right {
   width: 74%;
   margin-left: 6%;
   margin-top: 17px;
-  position: relative;
+  overflow: hidden;
 }
-section .text_box .tb .tb-right .word h1 {
-  font-size: 14px;
+section .text_box .tb .tb-right textarea {
+  margin-top: 28px;
+  margin-left: 50px;
+  display: block;
+  border: 1px solid #d7d7d7;
+  color: #a7a7a7;
 }
-section .text_box .tb .tb-right .word .of_whole {
+section .text_box .tb .tb-right button {
+  background-color: #eb6100;
+  color: #fff;
+  list-style-type: none;
+  border: none;
+  width: 86px;
+  height: 34px;
+  margin-top: 12px;
+  margin-left: 85%;
+  border-radius: 4px;
+  font-size: 20px;
+}
+section .text_box .tb .tb-right h1 {
+  font-size: 12px;
+  border-bottom: 1px solid #b2b2b1;
+  line-height: 24px;
+}
+section .text_box .tb .tb-right .of_whole {
   margin-top: 45px;
 }
-section .text_box .tb .tb-right .word p {
-  line-height: 32px;
-  color: #424242;
+section .text_box .tb .tb-right p {
+  line-height: 180%;
+  color: #333;
   display: block;
+  height: auto;
 }
-section .text_box .tb .tb-right .word div {
-  margin-top: 74px;
+section .text_box .tb .tb-right div {
+  margin-top: 28px;
 }
-section .text_box .tb .tb-right .word div h2 {
+section .text_box .tb .tb-right div h2 {
   width: 730px;
   height: 27px;
   background-color: #ffd7bc;
@@ -238,11 +381,11 @@ section .text_box .tb .tb-right .word div h2 {
   font-size: 14px;
   margin-bottom: 16px;
 }
-section .text_box .tb .tb-right .word div img {
+section .text_box .tb .tb-right div img {
   display: block;
-  margin-top: 68px;
+  margin-top: 16px;
 }
-section .text_box .tb .tb-right .word .two {
+section .text_box .tb .tb-right div .two {
   margin-top: 24px;
 }
 section .news {
