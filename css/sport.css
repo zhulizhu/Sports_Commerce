@@ -137,15 +137,130 @@ section .survey_banner {
   max-width: 1200px;
   margin: auto;
   margin-bottom: 42px;
+  position: relative;
+}
+section .survey_banner .login-box {
+  position: absolute;
+  top: 96px;
+  right: 70px;
+  width: 362px;
+  height: 415px;
+  border: 1px solid #da251c;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+section .survey_banner .login-box h2 {
+  font-size: 20px;
+  margin: 26px 154px 40px;
+}
+section .survey_banner .login-box .user {
+  width: 296px;
+  height: 43px;
+  background-color: #dddddd;
+  opacity: 1;
+  margin-left: 33px;
+}
+section .survey_banner .login-box .user span {
+  margin-left: 8px;
+}
+section .survey_banner .login-box .user span input {
+  width: 246px;
+  height: 41px;
+  margin-left: 8px;
+  margin-top: 1px;
+  margin-right: 1px;
+  background-color: #fff;
+  text-indent: 1em;
+}
+section .survey_banner .login-box .pass {
+  margin-top: 42px;
+}
+section .survey_banner .login-box .text {
+  width: 296px;
+  height: 43px;
+  margin-left: 33px;
+  margin-top: 14px;
+}
+section .survey_banner .login-box .text .left {
+  float: left;
+}
+section .survey_banner .login-box .text .left a {
+  color: #333;
+}
+section .survey_banner .login-box .text .right {
+  float: right;
+}
+section .survey_banner .login-box .text .right a {
+  color: #333;
+}
+section .survey_banner .login-box .bt {
+  margin-left: 33px;
+  margin-bottom: 67px;
+}
+section .survey_banner .login-box .bt button {
+  width: 295px;
+  height: 47px;
+  background-color: #da251c;
+  color: #fff;
+  font-size: 18px;
+  line-height: 47px;
+  text-align: center;
+  list-style-type: none;
+  border: none;
+  border-radius: 4px;
 }
 section .text_box {
   width: 1200px;
   max-width: 1200px;
   margin: auto;
+  position: relative;
 }
 section .text_box .text-top {
   overflow: hidden;
   margin-top: -25px;
+}
+section .text_box .text-top .text {
+  width: 100%;
+  height: 320px;
+  border: 1px solid #da251c;
+  background-color: #fff5ed;
+}
+section .text_box .text-top .text .text-le {
+  float: left;
+  margin-left: 54px;
+  margin-top: 50px;
+}
+section .text_box .text-top .text .text-ri {
+  float: right;
+  height: 190px;
+  width: 890px;
+  overflow: hidden;
+  margin-right: 38px;
+  margin-top: 50px;
+}
+section .text_box .text-top .text .text-ri .titl-team {
+  width: 208px;
+  height: 42px;
+  border: 1px solid #7a7a7a;
+  border-radius: 20px;
+  line-height: 42px;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: -22px;
+  left: 41%;
+  background-color: #fff;
+}
+section .text_box .text-top .text .text-ri h1 {
+  font-size: 26px;
+}
+section .text_box .text-top .text .text-ri h2 {
+  font-size: 16px;
+  margin-top: 4px;
+}
+section .text_box .text-top .text .text-ri p {
+  font-size: 12px;
+  line-height: 180%;
+  margin-top: 30px;
 }
 section .text_box .text-top .play {
   width: 72px;
@@ -171,6 +286,142 @@ section .text_box .text-top div.eng {
   float: left;
   border-bottom: 2px solid #da251c;
   margin-top: 10px;
+}
+section .text_box .text-top div.eng .sp-one {
+  margin-left: 0;
+  margin-right: 620px;
+}
+section .text_box .text-top div.eng span {
+  font-size: 14px;
+}
+section .text_box .text-content {
+  margin-top: 60px;
+}
+section .text_box .text-content h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-left: 446px;
+}
+section .text_box .text-content .til-one {
+  width: 100%;
+  height: 37px;
+  border: 1px solid #d7d7d7;
+  background-color: #f2f2f2;
+  position: relative;
+  margin-bottom: 30px;
+}
+section .text_box .text-content .til-one span {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 13px;
+}
+section .text_box .text-content .til-one span a {
+  color: #fff;
+  font-size: 20px;
+}
+section .text_box .text-content .cont {
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+section .text_box .text-content .cont button {
+  width: 168px;
+  height: 44px;
+  background-color: #da251c;
+  color: #fff;
+  font-size: 20px;
+  line-height: 44px;
+  text-align: center;
+  list-style-type: none;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section .text_box .text-content .cont h4 {
+  font-size: 14px;
+  color: #666666;
+}
+section .text_box .text-content .cont p {
+  line-height: 180%;
+  margin-bottom: 0;
+  color: #666666;
+  text-indent: 2em;
+}
+section .text_box .text-content .cont .para {
+  margin-left: 2em;
+  text-indent: 0;
+  width: 1156px;
+  overflow: hidden;
+}
+section .text_box .text-content .cont-write {
+  margin-top: -18px;
+  width: 100%;
+  height: 510px;
+  border: 1px solid #da251c;
+}
+section .text_box .text-content .cont-write .write {
+  width: 1136px;
+  height: 469px;
+  border: 1px solid #dfdfdf;
+  margin: 20px 30px;
+  text-shadow: 2px 1px 1px #d7d7d7;
+  padding: 70px 104px;
+}
+section .text_box .text-content .cont-write .write .write-one {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+section .text_box .text-content .cont-write .write .write-one .one {
+  float: left;
+}
+section .text_box .text-content .cont-write .write .write-one .one input {
+  width: 204px;
+  height: 36px;
+  border: 1px solid #c4c4c4;
+}
+section .text_box .text-content .cont-write .write .write-one .one select {
+  width: 204px;
+  height: 36px;
+  border: 1px solid #c4c4c4;
+  color: #333;
+}
+section .text_box .text-content .cont-write .write .write-one .two {
+  float: right;
+}
+section .text_box .text-content .cont-write .write .write-one .two input {
+  width: 204px;
+  height: 36px;
+  border: 1px solid #c4c4c4;
+}
+section .text_box .text-content .remark {
+  margin-top: 22px;
+  overflow: hidden;
+  margin-bottom: 37px;
+}
+section .text_box .text-content .remark .re-lef {
+  float: left;
+  width: 6%;
+}
+section .text_box .text-content .remark .re-rig {
+  float: right;
+  width: 91%;
+  height: 144px;
+  border: 1px solid #d0d0d0;
+  margin-right: 3%;
+}
+section .text_box .text-content .bt button {
+  width: 184px;
+  height: 52px;
+  background-color: #da251c;
+  color: #fff;
+  font-size: 24px;
+  line-height: 52px;
+  text-align: center;
+  list-style-type: none;
+  border: none;
+  margin-left: 506px;
 }
 section .text_box .bot-pic {
   margin-top: 22px;
