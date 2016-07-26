@@ -137,11 +137,10 @@ section .survey_banner {
   max-width: 1200px;
   margin: auto;
   margin-bottom: 42px;
-  position: relative;
 }
 section .survey_banner .login-box {
   position: absolute;
-  top: 96px;
+  top: -530px;
   right: 70px;
   width: 362px;
   height: 415px;
