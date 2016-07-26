@@ -88,6 +88,9 @@ header nav ul li {
   line-height: 60px;
   text-align: center;
 }
+header nav ul li a:hover {
+  color: #da251c;
+}
 header nav ul li a {
   color: #fff;
 }
@@ -111,15 +114,15 @@ header nav img.search {
 }
 header nav input {
   position: absolute;
-  top: 24px;
-  right: 8px;
+  top: 22px;
+  right: 9px;
   border: none;
   outline: none;
   width: 104px;
 }
 header nav .souSuo {
   position: absolute;
-  top: 22px;
+  top: 21px;
   right: 8px;
 }
 section {
@@ -485,6 +488,7 @@ section .text_box .apply .apply-list .list-one .dat .order {
   text-align: center;
   font-size: 16px;
   background-color: #fff;
+  border-radius: 6px 6px 0 0;
 }
 section .text_box .apply .apply-list .list-one .dat .tim {
   height: 38px;
