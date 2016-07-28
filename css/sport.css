@@ -149,7 +149,7 @@ section .survey_banner .login-box {
   height: 415px;
   border: 1px solid #da251c;
   background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 1px 2px 2px #888;
+  box-shadow: 1px 2px 2px #999;
 }
 section .survey_banner .login-box h2 {
   font-size: 20px;
@@ -580,10 +580,10 @@ section .text_box .tb .tb-left .list ul li {
   line-height: 46px;
   border-bottom: 1px solid #d4d4d4;
   text-align: center;
-  background: url("../images/xiaohuidian.png") no-repeat 0 50%;
+  background: url("../images/xiaohongdian.png") no-repeat 0 50%;
 }
 section .text_box .tb .tb-left .list ul li a {
-  color: #686868;
+  color: #da251c;
 }
 section .text_box .tb .tb-right {
   float: right;
@@ -591,6 +591,102 @@ section .text_box .tb .tb-right {
   margin-left: 6%;
   margin-top: 17px;
   overflow: hidden;
+  border-bottom: 1px solid #b2b2b1;
+}
+section .text_box .tb .tb-right nav {
+  margin-top: 18px;
+  margin-left: 292px;
+  overflow: hidden;
+}
+section .text_box .tb .tb-right nav .spa {
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  margin: 20px 0;
+  display: block;
+  float: left;
+}
+section .text_box .tb .tb-right nav button {
+  background-color: #fff;
+  color: #666666;
+  font-size: 14px;
+  border: 1px solid #d7d7d7;
+  width: 34px;
+  height: 34px;
+  float: left;
+  margin: 20px 0 20px 16px;
+}
+section .text_box .tb .tb-right nav .turn {
+  color: #666666;
+  display: block;
+  float: left;
+  padding: 6px 12px;
+  margin: 20px 0 20px 8px;
+}
+section .text_box .tb .tb-right nav ul {
+  float: left;
+  margin-left: 14px;
+}
+section .text_box .tb .tb-right nav ul li a {
+  color: #666666;
+  font-size: 14px;
+}
+section .text_box .tb .tb-right .cont {
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+}
+section .text_box .tb .tb-right .cont h1 {
+  font-size: 28px;
+  border-bottom: none;
+  line-height: 28px;
+  margin-left: 178px;
+  margin-bottom: 24px;
+}
+section .text_box .tb .tb-right .cont h4 {
+  font-size: 14px;
+  margin-left: 248px;
+  color: #999999;
+  margin-bottom: 42px;
+}
+section .text_box .tb .tb-right .cont p {
+  line-height: 180%;
+  margin-bottom: 18px;
+}
+section .text_box .tb .tb-right .cont img {
+  display: block;
+  margin: 0 auto 18px;
+}
+section .text_box .tb .tb-right .tex {
+  width: 100%;
+  height: auto;
+}
+section .text_box .tb .tb-right .tex ul li {
+  width: 100%;
+  height: 58px;
+  line-height: 58px;
+  border-bottom: 1px dashed #dddddd;
+}
+section .text_box .tb .tb-right .tex ul li a {
+  color: #5c5c5c;
+  font-size: 16px;
+}
+section .text_box .tb .tb-right .tex ul li a em {
+  display: block;
+  overflow: hidden;
+  width: 86%;
+  float: left;
+}
+section .text_box .tb .tb-right .tex ul li a em img {
+  display: inline;
+  margin-top: 0;
+  margin-right: 8px;
+}
+section .text_box .tb .tb-right .tex ul li a span {
+  display: block;
+  width: 14%;
+  float: right;
+  text-align: right;
 }
 section .text_box .tb .tb-right textarea {
   margin-top: 28px;
