@@ -55,6 +55,9 @@ body {
   height: auto;
   background-color: #fff;
 }
+body {
+  overflow-x: hidden;
+}
 header {
   width: 100%;
   height: 60px;
@@ -217,6 +220,102 @@ section .text_box {
   margin: auto;
   position: relative;
 }
+section .text_box .news-cont {
+  width: 100%;
+  margin: auto;
+}
+section .text_box .news-cont .cont {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+section .text_box .news-cont .cont img {
+  display: block;
+  margin: 18px auto;
+}
+section .text_box .news-cont .cont h1 {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+section .text_box .news-cont .cont h4 {
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+section .text_box .news-cont .cont p {
+  line-height: 180%;
+  margin-bottom: 18px;
+  color: #666666;
+  text-indent: 2em;
+}
+section .text_box .news-cont .cont .para {
+  margin-left: 2em;
+  text-indent: 0;
+  width: 1156px;
+  overflow: hidden;
+}
+section .text_box .bottom {
+  width: 100%;
+  height: auto;
+}
+section .text_box .bottom .mem {
+  border-bottom: 1px solid #ebebeb;
+}
+section .text_box .bottom .mem,
+section .text_box .bottom .mem_li {
+  width: 100%;
+}
+section .text_box .bottom .mem ul,
+section .text_box .bottom .mem_li ul {
+  overflow: hidden;
+}
+section .text_box .bottom .mem ul .first-li,
+section .text_box .bottom .mem_li ul .first-li {
+  margin-left: 22px;
+}
+section .text_box .bottom .mem ul .last-li,
+section .text_box .bottom .mem_li ul .last-li {
+  margin-right: 23px;
+}
+section .text_box .bottom .mem ul li,
+section .text_box .bottom .mem_li ul li {
+  float: left;
+  margin-right: 35px;
+  margin-bottom: 28px;
+  margin-top: 44px;
+}
+section .text_box .bottom .mem ul li a div,
+section .text_box .bottom .mem_li ul li a div {
+  border: 1px solid #d8d8d8;
+}
+section .text_box .bottom .mem ul li a div img,
+section .text_box .bottom .mem_li ul li a div img {
+  display: block;
+  width: 201px;
+  height: 194px;
+}
+section .text_box .bottom .mem ul li a p,
+section .text_box .bottom .mem_li ul li a p {
+  margin-top: 9px;
+  margin-bottom: 0;
+  margin-left: 12px;
+}
+section .text_box .top {
+  width: 100%;
+  height: auto;
+}
+section .text_box .top .tit {
+  margin: auto;
+  width: 170px;
+  height: 50px;
+  border: 1px solid #c8c6c6;
+  border-radius: 30px;
+}
+section .text_box .top .tit p {
+  margin-bottom: 3px;
+  text-align: center;
+}
 section .text_box .text-top {
   overflow: hidden;
   margin-top: -25px;
@@ -374,10 +473,10 @@ section .text_box .text-content .cont-write .write {
 }
 section .text_box .text-content .cont-write .write .write-one {
   overflow: hidden;
-  margin-bottom: 20px;
 }
 section .text_box .text-content .cont-write .write .write-one .one {
   float: left;
+  margin-bottom: 20px;
 }
 section .text_box .text-content .cont-write .write .write-one .one input {
   width: 204px;
@@ -391,7 +490,9 @@ section .text_box .text-content .cont-write .write .write-one .one select {
   color: #333;
 }
 section .text_box .text-content .cont-write .write .write-one .two {
-  float: right;
+  float: left;
+  margin-left: 39%;
+  margin-bottom: 20px;
 }
 section .text_box .text-content .cont-write .write .write-one .two input {
   width: 204px;

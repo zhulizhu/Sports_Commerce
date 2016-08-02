@@ -26,6 +26,10 @@ html, body {
   background-color: #fff;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   width: 100%;
   height: 60px;
@@ -191,6 +195,97 @@ section {
     max-width: 1200px;
     margin: auto;
     position: relative;
+    .news-cont{
+      width: 100%;
+      margin: auto;
+      .cont {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        img{
+          display: block;
+          margin: 18px auto;
+        }
+        h1{
+          font-weight: bold;
+          font-size: 28px;
+          text-align: center;
+        }
+        h4 {
+          font-size: 14px;
+          color: #666666;
+          text-align: center;
+        }
+        p {
+          line-height: 180%;
+          margin-bottom: 18px;
+          color: #666666;
+          text-indent: 2em;
+        }
+        .para {
+          margin-left: 2em;
+          text-indent: 0;
+          width: 1156px;
+          overflow: hidden;
+        }
+      }
+    }
+    .bottom{
+      width: 100%;
+      height: auto;
+      .mem{
+        border-bottom: 1px solid #ebebeb;
+      }
+      .mem,.mem_li{
+        width: 100%;
+        ul{
+          overflow: hidden;
+          .first-li{
+            margin-left: 22px;
+          }
+          .last-li{
+            margin-right: 23px;
+          }
+          li{
+            float: left;
+            margin-right: 35px;
+            margin-bottom: 28px;
+            margin-top: 44px;
+            a{
+              div{
+                border: 1px solid #d8d8d8;
+                img{
+                  display: block;
+                  width: 201px;
+                  height: 194px;
+
+                }
+              }
+              p{
+                margin-top: 9px;
+                margin-bottom: 0;
+                margin-left: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .top {
+      width: 100%;
+      height: auto;
+      .tit{
+        margin: auto;
+        width: 170px;
+        height: 50px;
+        border: 1px solid #c8c6c6;
+        border-radius: 30px;
+        p{
+          margin-bottom: 3px;
+          text-align: center;
+        }
+      }
+    }
     .text-top {
       overflow: hidden;
       margin-top: -25px;
@@ -348,9 +443,9 @@ section {
           padding: 70px 104px;
           .write-one {
             overflow: hidden;
-            margin-bottom: 20px;
             .one {
               float: left;
+              margin-bottom: 20px;
               input {
                 width: 204px;
                 height: 36px;
@@ -364,7 +459,9 @@ section {
               }
             }
             .two {
-              float: right;
+              float: left;
+              margin-left: 39%;
+              margin-bottom: 20px;
               input {
                 width: 204px;
                 height: 36px;
@@ -575,7 +672,7 @@ section {
         border-bottom: 1px solid #b2b2b1;
         nav {
           margin-top: 18px;
-          margin-left:292px;
+          margin-left: 292px;
           overflow: hidden;
           .spa {
             height: 34px;
@@ -585,7 +682,7 @@ section {
             display: block;
             float: left
           }
-          button{
+          button {
             background-color: #fff;
             color: #666666;
             font-size: 14px;
@@ -593,53 +690,53 @@ section {
             width: 34px;
             height: 34px;
             float: left;
-            margin:20px 0 20px 16px;
+            margin: 20px 0 20px 16px;
           }
-          .turn{
+          .turn {
             color: #666666;
             display: block;
             float: left;
-            padding:6px 12px;
-            margin:20px 0 20px 8px;
+            padding: 6px 12px;
+            margin: 20px 0 20px 8px;
           }
           ul {
             float: left;
             margin-left: 14px;
             li {
-              a{
-              color: #666666;
+              a {
+                color: #666666;
                 font-size: 14px;
-            }
+              }
               span {
 
               }
             }
           }
         }
-        .cont{
+        .cont {
           width: 100%;
           height: auto;
           margin-top: 24px;
-          h1{
+          h1 {
             font-size: 28px;
             border-bottom: none;
             line-height: 28px;
             margin-left: 178px;
             margin-bottom: 24px;
           }
-          h4{
+          h4 {
             font-size: 14px;
             margin-left: 248px;
             color: #999999;
             margin-bottom: 42px;
           }
-          p{
+          p {
             line-height: 180%;
             margin-bottom: 18px;
           }
-          img{
+          img {
             display: block;
-            margin:0 auto 18px;
+            margin: 0 auto 18px;
           }
         }
         .tex {
